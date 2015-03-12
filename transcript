@@ -1,0 +1,21 @@
+# vsim -do run.do -c work.wild_equality_operator 
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: wild_equality_operator.sv(7): Deprecated operator, use ==? instead.
+# ** Warning: wild_equality_operator.sv(11): Deprecated operator, use !=? instead.
+# //  ModelSim SE 6.2b Jul 31 2006 
+# //
+# //  Copyright 2006 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading d:\modeltech_6.2b\win32/../sv_std.std
+# Loading work.wild_equality_operator(fast)
+# do run.do 
+# Data 11111111 matches with 1xxxz1xz
+# Data 11111111 does not matches with 1xxxz1x0
+# ** Note: $finish    : wild_equality_operator.sv(14)
+#    Time: 1 ns  Iteration: 0  Instance: /wild_equality_operator

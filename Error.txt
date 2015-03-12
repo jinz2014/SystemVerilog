@@ -1,0 +1,14 @@
+#1  b = shortint'{8'hDE,8'hAD,8'hBE,8'hEF};
+
+// You should use "'{" to specify this literal
+reg unpacked_array [7:0] = '{0,0,0,0,0,0,0,1}; 
+
+	
+
+Packed arrays can only be made of the single bit types (bit, logic, reg, wire, and the other net types) 
+and recursively other packed arrays and packed structures. 
+The maximum size of a packed array can be limited, but shall be at least 65536 (216) bits.
+
+array_method: unique Returns all elements with unique values.
+
+queue & associative array
